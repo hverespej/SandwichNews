@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Sandwich News",
+	"version": "1.1",
+	"description": "Sandwich your news!",
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["jquery-2.1.4.min.js","content_script.js"],
+			"run_at": "document_end"
+		}
+	],
+	"permissions":
+	[
+    "http://myapp.appspot.com/*"
+	]
+}
