@@ -1,0 +1,3 @@
+Sandwich News server
+
+curl -d "" http://127.0.0.1:5000/mapwords

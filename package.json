@@ -1,0 +1,22 @@
+{
+  "name": "sandwich.news",
+  "version": "0.0.1",
+  "description": "Sandwich News server",
+  "author": "Hakon <hakon@madrona.com>",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hverespej/sandwich-news.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "multer": "^1.0.1"
+  },
+  "engines": {
+    "node": "0.12.x"
+  }
+}
